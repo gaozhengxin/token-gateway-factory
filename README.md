@@ -23,3 +23,25 @@ Gateways utilize AnyCall cross-chain messaging protocol and help token developer
 #### 2. Pool gateways
 - Pool gateways transfer tokens to the receiver when receiving a bridge-in message.
 - Pool gateways receive and lock tokens from the sender when the user initiates a bridge-out message.
+
+### Addresses
+#### Arbitrum
+- factoryPortal - 0x58c1BBb508e96CfEC1787Acf6Afe1C7008A5B064
+
+#### Optimism
+- factoryPortal - 0xab41861399eb56896b24FBaaBaA8bce45e4A626B
+
+#### Polygon
+- factoryPortal - 0x0084B0c29e25D5CcAeE5465981837eBEF542a262
+
+#### Fantom
+- factoryPortal : 0x152c0f9c32C393961e9803a9467B2194E1c00b21
+
+#### AVAX
+- factoryPortal - 0x2AC03BF434db503f6f5F85C3954773731Fc3F056
+
+#### BSC
+- factoryPortal - 0xfF9c94f5F5A3e3D65d2375215188140E23D604E3
+
+#### XANA
+- factoryPortal - 0x6eAE8a269651B9e5238b0886108F80fD4f448Bb9
