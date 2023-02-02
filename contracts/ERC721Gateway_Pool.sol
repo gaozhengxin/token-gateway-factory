@@ -50,4 +50,13 @@ contract ERC721Gateway_Pool is ERC721Gateway {
             return false;
         }
     }
+
+    function onERC721Received(
+        address,
+        address,
+        uint256,
+        bytes memory
+    ) public returns (bytes4) {
+        return this.onERC721Received.selector;
+    }
 }

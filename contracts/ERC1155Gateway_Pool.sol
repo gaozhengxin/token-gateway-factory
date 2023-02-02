@@ -100,6 +100,7 @@ contract ERC1155Gateway_Pool is ERC1155Gateway, IERC1155Receiver {
         uint256[] calldata values,
         bytes calldata data
     ) external returns (bytes4) {
-        return IERC1155Receiver.onERC1155BatchReceived.selector;
+        revert("this token gateway does not receiver batch transfer");
+        //return IERC1155Receiver.onERC1155BatchReceived.selector;
     }
 }
